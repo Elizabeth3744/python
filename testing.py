@@ -14,5 +14,5 @@ web_element.send_keys("6542657tomterry"+ Keys.ENTER)
 web_element  = driver.find_element(By.CLASS_NAME, "bs-welcome-header ")
 web_element.click();
 print(driver.title)
-time.sleep(3600)
+time.sleep(10)
 driver.quit()
